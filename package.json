@@ -1,0 +1,26 @@
+{
+    "name": "arras",
+    "version": "1.0.0",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "node server/index",
+        "host": "node standaloneClient/index",
+        "build": "node standaloneClient/build minify"
+    },
+    "dependencies": {
+        "cors": "latest",
+        "dotenv": "^16.0.3",
+        "express": "latest",
+        "express-minify": "latest",
+        "express-ws": "latest",
+        "forwarded-for": "latest",
+        "google-closure-library": "20180506.0.0",
+        "javascript-obfuscator": "latest",
+        "node-fetch": "^2.6.7",
+        "uglify-js": "latest"
+    },
+    "engines": {
+        "node": "16.x"
+    },
+    "license": "GPL-3.0"
+}
